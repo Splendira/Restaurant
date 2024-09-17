@@ -1,0 +1,233 @@
+/* ******************* MEDIA *******************
+
+/******************* TITRE HERO SECTION *******************/
+@media screen and (max-width: 455px) {
+  h1 {
+    font-size: 35vw;
+  }
+}
+
+/******************* MOT DU CHEF *******************/
+
+@media screen and (max-width: 760px) {
+  .imgMotDuChef {
+    width: 150px;
+    height: 150px;
+  }
+  .containerMotDuChefTxt h2 {
+    font-size: 3vw;
+  }
+  .containerMotDuChefTxt p {
+    font-size: 2vw;
+  }
+}
+
+/* @media screen and (max-width: 585px) {
+  .containerMotDuChefTxt p {
+    font-size: 1vw;
+  }
+} */
+
+@media screen and (max-width: 465px) {
+  .containerMotDuChef {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .containerImg {
+    display: none;
+  }
+
+  .containerMotDuChefTxt p {
+    font-size: 3vw;
+    text-align: center;
+  }
+  .containerMotDuChefTxt h2 {
+    font-size: 4vw;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .containerMotDuChef {
+    padding: 5px;
+  }
+}
+
+/******************* CONTAINER CARTE *******************/
+
+@media screen and (max-width: 740px) {
+  .container-carte {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 547px) {
+  .container-carte {
+    grid-template-columns: 90%;
+    grid-template-rows: repeat(12, 80px);
+    justify-content: center;
+  }
+
+  .titre-du-plat {
+    text-align: center;
+  }
+
+  .titre-entrees {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  .titre-plats {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+  }
+  .titre-desserts {
+    grid-column: 1 / 2;
+    grid-row: 9 / 10;
+  }
+  .plat-1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  .plat-2 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+  .plat-3 {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
+  .plat-4 {
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+  }
+  .plat-5 {
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+  }
+  .plat-6 {
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+  }
+  .plat-7 {
+    grid-column: 1 / 2;
+    grid-row: 10 / 11;
+  }
+  .plat-8 {
+    grid-column: 1 / 2;
+    grid-row: 11 / 12;
+  }
+  .plat-9 {
+    grid-column: 1 / 2;
+    grid-row: 12 / 13;
+  }
+}
+
+/******************* CARTE COMPLÈTE *******************/
+
+@media screen and (max-width: 900px) {
+  .carte-complete {
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .carte-complete {
+    grid-template-columns: repeat(2, 120px);
+    grid-template-rows: repeat(2, 160px);
+  }
+
+  .overflow p {
+    font-size: 12px;
+    width: 80%;
+    text-align: center;
+  }
+}
+
+/******************** SECTION NEWS LETTERS ********************/
+@media screen and (max-width: 1115px) {
+  .description-footer {
+    font-size: 1.3vw;
+  }
+
+  .container-horaire {
+    font-size: 1vw;
+  }
+}
+@media screen and (max-width: 760px) {
+  .description-footer {
+    font-size: 1.6vw;
+  }
+
+  .container-horaire {
+    font-size: 1.6vw;
+  }
+}
+@media screen and (max-width: 530px) {
+  .description-footer {
+    font-size: 2vw;
+  }
+
+  .container-horaire {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .titre-recevoir-recette {
+    font-size: 7vw;
+  }
+}
+
+/* PAYSAGE GESTION HAUTEUR */
+
+/* HERO SECTION */
+
+@media screen and (max-height: 510px) {
+  .heroSection h1 {
+    font-size: 12vw;
+  }
+}
+
+/* MOT DU CHEF */
+
+/* @media screen and (min-height: 400px) {
+  .imgMotDuChef {
+    width: 100px;
+    height: 100px;
+  }
+
+  .containerMotDuChefTxt h2 {
+    font-size: 5vh;
+  }
+
+  .containerMotDuChefTxt p {
+    font-size: 2.6vh;
+    margin-bottom: 10px;
+  }
+} */
+@media screen and (max-height: 400px) {
+  .imgMotDuChef {
+    width: 90px;
+    height: 90px;
+  }
+  ƒ .containerMotDuChefTxt h2 {
+    font-size: 5vh;
+  }
+
+  .containerMotDuChefTxt p {
+    font-size: 2.6vh;
+    line-height: 20px;
+  }
+}
+
+/* CARTE */
+
+@media screen and (max-height: 400px) {
+  .carte-complete {
+    grid-template-columns: repeat(4, 120px);
+    grid-template-rows: repeat(1, 120px);
+  }
+}
